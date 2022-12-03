@@ -1,0 +1,452 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.navigasi{
+    justify-content: center;
+    display: flex;
+    gap: 55px;
+    font-size: 30px;
+    padding: 50px 0px;
+}
+.navigasi a{
+    color: white;
+    text-decoration: none;
+}
+.satu_1{
+    display: flex;
+    padding: 0px 136px;
+}
+.satu_1 .bungkus_kiri{
+    padding: 65px 0px 0px 0px;
+}
+.satu_1  h1{
+    color:white ;
+    font-size: 25px;
+}
+.satu_1 .bungkus_kiri .satu_3{
+    padding: 20px 0px;
+}
+.satu_1 .bungkus_kiri .satu_5{
+    padding: 100px 0px;
+} 
+.satu_1 .bungkus_kiri .satu_4 button{
+        border-radius: 12px;
+        transition: 0.5s;
+        background-color: black;
+        border-color: aqua;
+        color: white;
+        height: 35px;
+        width: 100px;
+        font-family: 'Segoe UI';
+        padding-top: 2px;
+        font-size: 12px;
+}
+.satu_1 .bungkus_kiri .satu_4 button:hover{
+    color: white;
+    background-color: skyblue;
+    transition: 0.3s;
+}
+.satu_1 .bungkus_kiri .satu_5 h1{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    color: gray;
+}
+.satu_1 .bungkus_kiri .satu_5 .logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.satu_1 .bungkus_kiri .satu_5 .logo .logo1_1 i{
+    color: aqua;
+    size: 50px;
+}
+.satu_1 .bungkus_kiri .satu_5 .logo .logo1_2 i{
+    color: yellow;
+    size: 50px;
+}
+.satu_1 .bungkus_kiri .satu_5 .logo .logo1_3 i{
+    color: violet;
+    size: 50px;
+}
+.satu_1 .bungkus_kiri .satu_5 .logo .logo1_4 i{
+    color: red;
+    size: 50px;
+}
+.satu_1 .Bungkus-kanan{
+    display: flex;
+    z-index: 1;
+    margin: 1px 169px;
+    width: 10px;
+}
+.satu_1 .Bungkus-kanan .gambar{
+    z-index: 1;
+    margin: 0px -13px;
+}
+.satu_1 .Bungkus-kanan .gambar img{
+    height: 398px;
+    margin: 13px 89px;
+    outline: 3px solid white;
+}
+.satu_1 .Bungkus-kanan .bungkusborder{
+    position: absolute;
+}
+.satu_1 .Bungkus-kanan .bungkusborder .brr{
+    border: 5px solid #23acfa;
+    height: 446px;
+    width: 250px;
+    margin: -7px 159px;
+}
+.judul1{
+    justify-content: center;
+    display: flex;
+    padding: 50px 0px;
+}
+.judul1 h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+}
+.dua{
+    display: flex;
+    padding: 0px 136px;
+}
+.dua .dua-kiri .dua1{
+    padding: 65px 0px;
+}
+.dua h1{
+    font-size: 25px;
+    color: white;
+}
+.dua .dua-kiri .dua2 p{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    width: 384px;
+}
+.dua .dua-kiri .dua2 .logo2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 384px;
+}
+.dua .dua-kiri .dua2 .logo2 .logo2_1{
+    size: 50px;
+    color: aqua;
+}
+.dua .dua-kiri .dua2 .logo2 .logo2_2{
+    size: 50px;
+    color: yellow;
+}
+.dua .dua-kiri .dua2 .logo2 .logo2_3{
+    size: 50px;
+    color: red;
+}
+.dua .dua-kiri .dua2 .logo2 .logo2_4{
+    size: 50px;
+    color: violet;
+}
+.dua .dua-kiri .dua2{
+    padding: 98px 0px;
+    line-height: 0;
+}
+.dua .Bungkus-kanan2{
+    display: flex;
+    z-index: 1;
+    margin: 1px 33px;
+    width: 10px;
+}
+.dua .Bungkus-kanan2 .gambar2{
+    z-index: 1;
+    margin: 0px -13px;
+}
+.dua .Bungkus-kanan2 .gambar2 img{
+    height: 398px;
+    margin: 13px 89px;
+    outline: 3px solid white;
+}
+.dua .Bungkus-kanan2 .bungkus_kanan3{
+    position: absolute;
+}
+.dua .bungkus-kanan2 .bungkus_kanan3 .brr2{
+    border: 5px solid #23acfa;
+    height: 446px;
+    width: 250px;
+    margin: -7px 159px;
+}
+.judul2{
+    padding: 50px 0px;
+}
+.judul2 h1{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+.judul2 p{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+.tiga{
+    padding: 0px 136px;
+}
+.tiga p,h1{
+    color: white;
+}
+.tiga .bungkus-kiri{
+    display: flex;
+    justify-content: space-between;
+}
+.tiga .bungkus-kiri .tiga1 .tiga2 .p1{
+    color: white;
+}
+.tiga .bungkus-kiri .tiga1 .tiga2 .p2{
+    color: white;
+}
+.tiga .bungkus-kiri .tiga1 .tiga2 .p3{
+    color: white;
+}
+.tiga .bungkus-kiri .tiga1 h1{
+    font-size: 25px;
+    border-bottom: 3px solid white;
+    width: 135px;
+}
+.tiga .bungkus-kiri .tiga1 p{
+    font-size: 20px;
+}
+.tiga .bungkus-kiri .tiga1 .tiga2 h1{
+    border-bottom: 3px solid white;
+    width: 135px;
+    font-size: 25px;
+}
+.tiga .bungkus-kiri .tiga1 .tiga2 p{
+    margin: 0;
+}
+.tabung_1 .tiga-atas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 474px;
+    margin: 0;
+    gap: 12px;
+}
+.tabung_1 .tiga-atas .tabung_2{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tiga .tabung_1 .tiga-atas .tabung_2 h1{
+    color: black;
+    font-size: 15px;
+}
+.tiga .tabung_1 .tiga-atas .tabung_2 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tiga .tabung_1 .tiga-atas .tabung_2 .bungkusb i{
+    color: black;
+}
+.tiga .tabung_1 .tiga-atas .tabung_3{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tabung_1 .tiga-atas .tabung_3 h1{
+    color: black;
+    font-size: 15px;
+}
+.tabung_1 .tiga-atas .tabung_3 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tabung_1 .tiga-atas .tabung_3 .bungkusc i{
+    color: black;
+}
+.tabung_1 .tiga-atas .tabung_4{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tabung_1 .tiga-atas .tabung_4 h1{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.tabung_1 .tiga-atas .tabung_4 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tabung_1 .tiga-atas .tabung_4 .bungkusd i{
+    color: black;
+}
+.tabung_1 .tiga-atas .tabung_5{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tabung_1 .tiga-atas .tabung_5 h1{
+    color: black;
+    font-size: 15px;
+}
+.tabung_1 .tiga-atas .tabung_5 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tabung_1 .tiga-atas .tabung_5 .bungkuse i{
+    color: black;
+}
+.tabung_1 .tiga-atas .tabung_6{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tabung_1 .tiga-atas .tabung_6 h1{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.tabung_1 .tiga-atas .tabung_6 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tabung_1 .tiga-atas .tabung_6 .bungkusf i{
+    color: black;
+}
+.tabung_1 .tiga-atas .tabung_7{
+    border: 0px solid white;
+    background-color: white;
+    width: 150px;
+    padding: 13px 10px;
+    height: 103px;
+    margin: 10px 0px;
+}
+.tabung_1 .tiga-atas .tabung_7 h1{
+    color: black;
+    font-size: 15px;
+}
+.tabung_1 .tiga-atas .tabung_7 p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+.tabung_1 .tiga-atas .tabung_7 .bungkusg i{
+    color: black;
+}
+.tiga .tiga3{
+    margin: 30px 0px;
+}
+.tiga .tiga3 h2{
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   color: gray;
+}
+.tiga .logo3{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.tiga .tiga3 .logo3 .logo3_1{
+    color: aqua;
+}
+.tiga .tiga3 .logo3 .logo3_2{
+    color: yellow;
+}
+.tiga .tiga3 .logo3 .logo3_3{
+    color: violet;
+}
+.tiga .tiga3 .logo3 .logo3_4{
+    color: red;
+}
+.judul3{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.judul3 h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+.empat{
+    padding: 0px 136px;
+    display: flex;
+}
+.empat .empat1{
+    display: table-caption;
+}
+.empat .empat1 .message input,
+    textarea{
+        background-color: white;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 100%;
+        border-radius: 10px;
+    }
+input:focus,
+textarea:focus {
+    outline: 3px solid #23ACFA;
+}
+.tombol1{
+    border-radius: 20px;
+    border: px solid #23ACFA;
+    background-color: #23ACFA;
+    color: white;
+    font-size: 15px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    margin-left: 20px;
+    width: 330;
+}
+button, input, optgroup, select, textarea {
+    margin: 10px 0;
+    font-family: inherit;
+    font-size: inherit;
+    width: 378px;
+    border-radius: 10px;
+}
+.bungkuskanan3 img{
+    width: 528px;
+}
+
+
